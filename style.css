@@ -19,19 +19,23 @@ body{background-color: #b2bec3;}
 
 h1 {color: #d63031 ;
 font-size: 36px;
-font-family: bold ;}
+font-family: bold ;
+margin-top: 0;
+padding: 0;}
 
-.box{border: 7px solid black;
+.box{
 	margin-top: 150px;
 	margin-left: auto;
 	margin-right: auto;
 padding: 30px;
 background-color: white;
 width: 550px;
+box-shadow: rgb(131, 131, 131) 6px 6px 6px;
+border-radius: 10px;
 }
 
 p {
-	padding: 0;
+	padding-bottom: 0;
 	margin: 0;
     font-size: 18px
 }
@@ -42,3 +46,52 @@ img{ float: right;
     margin: 0 0px 0px 0;
     border-radius: 50%;
     border: 3px solid white}
+
+
+    .twitter {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        background-color:  #1da1f2;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    
+.twitter a:hover {
+	background-color:#0b7bc1;
+	color: white;
+    padding: 18px;
+   
+}
+
+.twitter a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 18px;
+    color: white;
+
+}
+
+
+    .facebook {    margin: 0;
+        background-color:  #3b5998;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    
+.facebook a:hover {
+	background-color: #2b406e;
+	color: white;
+    padding: 18px;
+}
+
+.facebook a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 18px;
+    color: white
+}
