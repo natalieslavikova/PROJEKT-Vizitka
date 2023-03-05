@@ -15,13 +15,15 @@ tlačítko Facebook aktivní: #2b406e
 */
 
 
-body{background-color: #b2bec3;}
+body{background-color: #b2bec3;
+    font-family: 'Nunito' }
 
 h1 {color: #d63031 ;
 font-size: 36px;
-font-family: bold ;
 margin-top: 0;
-padding: 0;}
+padding: 0;
+font-weight: bold ;
+font-family: 'Nunito' }
 
 .box{
 	margin-top: 150px;
@@ -34,64 +36,86 @@ box-shadow: rgb(131, 131, 131) 6px 6px 6px;
 border-radius: 10px;
 }
 
+
+
 p {
 	padding-bottom: 0;
 	margin: 0;
     font-size: 18px
 }
 
-img{ float: right;
+img{position: absolute;
+    left: 880px; 
+    top: 80px;
     width: 150px;
     height: 150px;
-    margin: 0 0px 0px 0;
+
     border-radius: 50%;
     border: 3px solid white}
 
 
-    .twitter {
+
+
+
+.twitter {
         margin-top: 20px;
         margin-bottom: 5px;
         background-color:  #1da1f2;
         color: white;
+        font-weight: bold ;
         text-align: center;
-        font-size: 18px;
+       
         border-radius: 5px;
         text-transform: uppercase;
-    }
+        display:inline-block;
+        width: 490px;
+        height: 40px;}
     
-.twitter a:hover {
+        .twitter a:hover {
 	background-color:#0b7bc1;
 	color: white;
-    padding: 18px;
-   
-}
+    width: 490px;
+    height: 40px;
+    border-radius: 5px;}
 
 .twitter a {
 	display: inline-block;
 	text-decoration: none;
-	padding: 18px;
     color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 490px;
+    height: 40px;}
 
-}
-
-
-    .facebook {    margin: 0;
+.facebook {    margin: 0;
         background-color:  #3b5998;
         color: white;
-        text-align: center;
+        font-weight: bold ;
+        
+       text-align: center;
         border-radius: 5px;
         text-transform: uppercase;
-    }
+        display:inline-block;
+        width: 490px;
+        height: 40px; }
     
 .facebook a:hover {
 	background-color: #2b406e;
 	color: white;
-    padding: 18px;
+    width: 490px;
+    height: 40px;
+    border-radius: 5px;
 }
 
 .facebook a {
 	display: inline-block;
 	text-decoration: none;
-	padding: 18px;
-    color: white
+    color: white;
+    display:inline-block;
+        width: 490px;
+        height: 40px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
 }
