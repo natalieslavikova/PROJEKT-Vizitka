@@ -15,30 +15,30 @@ tlačítko Facebook aktivní: #2b406e
 */
 
 
-body{background-color: #b2bec3;
+body{
+    background-color: #b2bec3;
     font-family: 'Nunito' }
 
-h1 {color: #d63031 ;
-font-size: 36px;
-margin-top: 0;
-margin-bottom: 30px;
-padding: 0;
-font-weight: bold ;
-font-family: 'Nunito' }
+h1 {
+    color: #d63031 ;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    font-weight: bold ;
+ }
 
 .box{
 	margin-top: 150px;
 	margin-left: auto;
 	margin-right: auto;
-padding: 30px;
-background-color: white;
-width: 550px;
-box-shadow: rgb(131, 131, 131) 6px 6px 6px;
-border-radius: 10px;
-position:relative
+    padding: 30px;
+    background-color: white;
+    width: 550px;
+    box-shadow: rgb(131, 131, 131) 6px 6px 6px;
+    border-radius: 10px;
+    position: relative;
 }
-
-
 
 p {
 	padding-bottom: 0;
@@ -46,18 +46,15 @@ p {
     font-size: 18px
 }
 
-img{position: absolute;
+img{
+    position: absolute;
     left: 480px; 
-   top: -50px;
+    top: -50px;
     width: 150px;
     height: 150px;
-
     border-radius: 50%;
     border: 3px solid white}
     
-
-
-
 .twitter {
         margin-top: 30px;
         margin-bottom: 5px;
@@ -65,19 +62,15 @@ img{position: absolute;
         color: white;
         font-weight: bold ;
         text-align: center;
-       
         border-radius: 5px;
         text-transform: uppercase;
         display:inline-block;
-        width: 490px;
-        height: 40px;}
+        
+    }
     
-        .twitter a:hover {
+.twitter a:hover {
 	background-color:#0b7bc1;
-	color: white;
-    width: 490px;
-    height: 40px;
-    border-radius: 5px;}
+}
 
 .twitter a {
 	display: inline-block;
@@ -87,36 +80,33 @@ img{position: absolute;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 490px;
-    height: 40px;}
+    height: 40px;
+    border-radius: 5px;
+}
 
-.facebook {    margin: 0;
-        background-color:  #3b5998;
-        color: white;
-        font-weight: bold ;
-        
-       text-align: center;
-        border-radius: 5px;
-        text-transform: uppercase;
-        display:inline-block;
-        width: 490px;
-        height: 40px; }
+.facebook {    
+    margin: 0;
+    background-color:  #3b5998;
+    color: white;
+    font-weight: bold ;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display:inline-block;
+ }
     
 .facebook a:hover {
 	background-color: #2b406e;
-	color: white;
-    width: 490px;
-    height: 40px;
-    border-radius: 5px;
 }
 
 .facebook a {
 	display: inline-block;
 	text-decoration: none;
     color: white;
-    display:inline-block;
-        width: 490px;
-        height: 40px;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    width: 490px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
